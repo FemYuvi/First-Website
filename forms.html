@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    
+    <form action="index.html" method="get">
+
+        <label for="Username">Username:</label><br>
+        <input type="username" id="Username" placeholder="Type here" minlength="3" maxlength="16"  required><br><br>
+        
+        <label for="E-Mail">E-Mail Address</label><br>
+        <input type="email" id="email" placeholder="Type here" required><br><br>
+        
+        
+        <label for="Password">Password</label><br>
+        <input type="password" id="Password" placeholder="Type here" minlength="8" maxlength="24" required>
+        <br><br>
+        <label for="Gender">Gender: (Not Required)</label><br>
+        <br>
+        <input type="radio" id="Male" value="Male" name="Gender">
+        <label for="Male">Male:</label><br>
+        <input type="radio" id="Female" value="Female" name="Gender">
+        <label for="Female">Female:</label><br>
+        <input type="radio" id="Diverse" value="Diverse" name="Gender">
+        <label for="Diverse">Diverse:</label><br>
+        <input type="radio" id="Bombenleger" value="Bombenleger" name="Gender">
+        <label for="Bombenleger">Bombenleger:</label><br><br>
+        <label for="Favourite Spongebob Character">Favourite Spongebob Character:</label>
+        <select id="Favourite Spongebob Character" required>
+            <option value="Spongebob">Spongebob</option>
+            <option value="Patrick">Patrick</option>
+            <option value="Squidward">Squidward</option>
+            <option value="Mr.Krabs">Mr.Krabs</option>
+            <option value="Sandy">Sandy</option>
+            <option value="Plankton">Plankton</option>
+            <option value="Gary">Gary</option>
+            <option value="Karen">Karen</option>
+            <option value="Ms.Puff">Ms.Puff</option>
+            <option value="Spiderman">Spiderman</option>
+            <option value="Osama Bin Laden">Osama Bin Laden</option>
+            <option value="Olaf Scholz">Olaf Scholz</option>
+        </select><br><br>
+
+        <label for="Agreement">Do you agree to our Terms of Service?</label>
+        <input type="checkbox" id="Agreement" required> <a href="https://www.youtube.com/watch?v=cade_xTZeog">Terms of Service</a><br><br>
+
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+
+</body>
+</html>
